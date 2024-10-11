@@ -24,12 +24,12 @@ resource "local_file" "mapdataType" {
   content  = var.map_datatype.name
 }
 
-resource "local_file" "objectType" {
+resource "local_file" "tupleType" {
   filename = "file6.txt"
-  content  = var.tupleDatatype[1]
+  content  = var.tupleDatatype[2][0]
 }
 
-resource "local_file" "tupletype" {
+resource "local_file" "objecttype" {
   filename = "file7.txt"
   content  = var.objecttype.address[0]
 }
