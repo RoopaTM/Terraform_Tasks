@@ -1,8 +1,3 @@
-resource "local_file" "numbertype" {
-  filename = "file1.txt"
-  content  = var.number_type
-}
-
 resource "local_file" "listdataType" {
   filename = "file2.txt"
   content  = var.list_datatype[0]

@@ -1,25 +1,25 @@
 variable "number_type" {
-  default = 6
+  default =8 
   type    = number
 }
 
 #list datatype  whuch is of list(any) 
 variable "list_datatype" {
   type    = list(any)
-  default = ["hey", true, 123]
+  default = ["heeeeey", true, 123]
 }
 
 
 #list Datatype which is of list(string) 
 variable "list_of_string" {
   type    = list(string)
-  default = ["213", "okay", "test1"]
+  default = ["213", "okay", "test21"]
 }
 
 #list Datatype which is of list of list(number)
 variable "list_of_list_ofType_Num" {
   type    = list(list(number))
-  default = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+  default = [[1, 2, 3], [4, 5, 06], [7, 8, 9]]
 }
 
 
@@ -28,7 +28,7 @@ variable "list_of_list_ofType_Num" {
 variable "map_datatype" {
   type = map(string)
   default = {
-    name = "roopa"
+    name = "roopa tm"
     id   = "123"
     num  = "12345678"
   }
